@@ -1,4 +1,4 @@
-# Welcome to Math Utility Repository ver7.6.2024
+# Welcome to Math Utility Repository ver. 7.6.2024
 
 ## You will find in this repo the following stuff
 
