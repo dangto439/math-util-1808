@@ -23,16 +23,12 @@ public class MathUtility {
         if (n < 0 || n > 20) {
             throw new IllegalArgumentException("Invalid n. n must be between 0 to 20");
         }
-
-        if (n == 0) {
+        
+        if (n == 0 || n == 1) {
             return 1;
         }
-
-        for (int i = 1; i <= n; i++) {
-            product *= i; //thuật toán nhân dồn, con heo đất - ốc bu nhồi thịt
-        }
-
-        return product;
+        
+        return n * getFactorial(n - 1);
     }
-
+    
 }
